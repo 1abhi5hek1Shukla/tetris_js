@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#game{
+    background-color: #CCC;
+    width: 250px;
+    height: 500px;
+    border: 25px solid #40131d;
+    border-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#field{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-rows: repeat(20,1fr);
+    grid-template-columns: repeat(10,1fr);
+}
+.tetromino{
+    box-sizing:border-box;
+    border: 1px solid black;
+}
+.tetromino-0{
+    background-color: cyan;
+}
+.tetromino-1{
+    background-color: blue;
+}
+.tetromino-2{
+    background-color: orange;
+}
+.tetromino-3{
+    background-color: yellow;
+}
+.tetromino-4{
+    background-color: green;
+}
+.tetromino-5{
+    background-color: purple;
+}
+.tetromino-6{
+    background-color: red;
+}
